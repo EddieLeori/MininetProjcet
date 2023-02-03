@@ -4,8 +4,8 @@ Mininet test for IFOSA, SAPSM and HVFR of path selection algorithm in SDN contro
 
 Run k=4 Fat-Tree topo networks
 setting modify:
-	tree_mode = FAT_TREE
-	method_mode = PATH_IFOSA or PATH_SAPSM or PATH_SAPSM_DELAY
+tree_mode = FAT_TREE
+method_mode = PATH_IFOSA or PATH_SAPSM or PATH_SAPSM_DELAY
 sudo python3 fatTester.py 5 1 2 7
 sudo python3 fatTester.py 5 2 3 5
 sudo python3 fatTester.py 5 3 4 3
