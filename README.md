@@ -13,20 +13,20 @@ sudo python3 fatTester.py 5 7 2 1
 
 Run Grid 4x4 topo networks
 setting modify:
-	tree_mode = GRID4X4_TREE
-	method_mode = PATH_IFOSA or PATH_SAPSM or PATH_SAPSM_DELAY
+tree_mode = GRID4X4_TREE
+method_mode = PATH_IFOSA or PATH_SAPSM or PATH_SAPSM_DELAY
 sudo python3 grid4X4Tester.py 10 5
 
 Run Grid 5x5 topo networks
 setting modify:
-	tree_mode = GRID5X5_TREE
-	method_mode = PATH_IFOSA or PATH_SAPSM or PATH_SAPSM_DELAY
+tree_mode = GRID5X5_TREE
+method_mode = PATH_IFOSA or PATH_SAPSM or PATH_SAPSM_DELAY
 sudo python3 grid5X5Tester.py 5 4
 
 Run NSF topo networks
 setting modify:
-	tree_mode = NSF_TREE
-	method_mode = PATH_IFOSA or PATH_SAPSM or PATH_SAPSM_DELAY
+tree_mode = NSF_TREE
+method_mode = PATH_IFOSA or PATH_SAPSM or PATH_SAPSM_DELAY
 sudo python3 nsfTester.py 10 5
 
 Then will create out for the *.log files.
